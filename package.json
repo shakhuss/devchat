@@ -1,0 +1,35 @@
+{
+  "name": "devchat",
+  "version": "1.0.0",
+  "description": "Chat Application for Developers",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakhuss/devchat.git"
+  },
+  "author": "Shak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakhuss/devchat/issues"
+  },
+  "homepage": "https://github.com/shakhuss/devchat#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.3"
+  }
+}
